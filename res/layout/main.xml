@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg"
+    android:baselineAligned="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+            <Button
+                android:id="@+id/mainStartButton"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:background="@color/btnColor"
+                android:onClick="onMainStartButtonClick"
+                android:text="@string/buttonStart"
+                android:textAlignment="center"
+                android:alpha="0.6"
+                android:textColor="@color/qnTxt" />
+
+            <Button
+                android:id="@+id/mainSettingButton"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:alpha="0.6"
+                android:background="@color/btnColor"
+                android:onClick="onMainSettingButtonClick"
+                android:text="@string/buttonSetting"
+                android:textColor="@color/qnTxt" />
+
+            <Button
+                android:id="@+id/mainInstructionButton"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:alpha="0.6"
+                android:background="@color/btnColor"
+                android:onClick="onMaininstractionButtonClick"
+                android:text="@string/buttonInstruction"
+                android:textColor="@color/qnTxt" />
+
+            <Button
+                android:id="@+id/mainAbout_usButton"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:alpha="0.6"
+                android:background="@color/btnColor"
+                android:onClick="onMainaboutusButtonClick"
+                android:text="@string/buttonAbout_us"
+                android:textColor="@color/qnTxt" />
+
+            <Button
+                android:id="@+id/mainExitButton"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2dp"
+                android:alpha="0.6"
+                android:background="@color/btnColor"
+                android:onClick="onMainExitButtonClick"
+                android:text="@string/buttonExit"
+                android:textColor="@color/qnTxt"
+                android:visibility="visible" />
+
+</LinearLayout>

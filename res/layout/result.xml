@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/startbg" >
+<LinearLayout
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_centerInParent="true"
+    android:background="@color/qnBgd"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/textResult"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:text="Result"
+    android:textSize="30dp"
+    android:textStyle="bold"
+     android:textColor="@color/qnTxt" />
+
+<TextView
+    android:id="@+id/textResultnumbers"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dp"
+    android:padding="10dp"
+    android:text="Number of question"
+    android:textSize="24sp"
+    android:textStyle="bold"
+     android:textColor="@color/qnTxt" />
+
+<TextView
+    android:id="@+id/textResultscore"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="2dp"
+    android:text="score"
+    android:textSize="24sp"
+    android:textStyle="bold"
+     android:textColor="@color/qnTxt" />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/btn"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:alpha="0.5"
+    android:onClick="onResultExitButtonClick"
+    android:text="@string/buttonBack"
+    android:background="@color/btnBk" />
+
+    
+    </RelativeLayout>
+    

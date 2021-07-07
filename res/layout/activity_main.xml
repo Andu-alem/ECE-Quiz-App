@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg"
+    android:baselineAligned="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+            <Button
+                android:id="@+id/mainStartButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:onClick="onMainStartButtonClick"
+                android:text="@string/buttonStart"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/mainSettingButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:onClick="onMainSettingButtonClick"
+                android:text="@string/buttonSetting" />
+
+            <Button
+                android:id="@+id/mainInstructionButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:onClick="onMaininstractionButtonClick"
+                android:text="@string/buttonInstruction" />
+
+            <Button
+                android:id="@+id/mainAbout_usButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:onClick="onMainaboutusButtonClick"
+                android:text="@string/buttonAbout_us" />
+            <Button
+                android:onClick="onMainExitButtonClick"
+                android:id="@+id/mainExitButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="@string/buttonExit" />
+
+</LinearLayout>

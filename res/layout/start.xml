@@ -1,0 +1,634 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/startbg" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="@string/start_text_view1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@color/btnBk" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/startBackButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:paddingLeft="8dp"
+            android:background="@color/qnBgd" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/ch11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onCheckBoxkClick"
+                    android:text="Fundamentals of Electrical Engineering"
+                    android:textColor="@color/qnTxt"
+                    android:textSize="23sp" />
+                
+               <CheckBox
+                   android:id="@+id/ch41"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/ch11"
+                   android:onClick="onCheckBoxkClick"
+                   android:text="Microcomputers and Interface"
+                   android:textColor="@color/qnTxt"
+                   android:textSize="23sp" />
+
+                 <CheckBox
+                     android:id="@+id/ch21"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/ch41"
+                     android:text="Introduction to Computing"
+                     android:textColor="@color/qnTxt"
+                     android:textSize="23sp" />
+
+                 <CheckBox
+                     android:id="@+id/ch22"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/ch21"
+                     android:onClick="onCheckBoxkClick"
+                     android:text="Modern Physics"
+                     android:textColor="@color/qnTxt"
+                     android:textSize="23sp"/>
+
+                 <CheckBox
+                     android:id="@+id/ch23"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/ch22"
+                     android:onClick="onCheckBoxkClick"
+                     android:text="Applied Electronics"
+                     android:textColor="@color/qnTxt"
+                     android:textSize="23sp" />
+
+                 <CheckBox
+                     android:id="@+id/ch24"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/ch23"
+                     android:onClick="onCheckBoxkClick"
+                     android:text="Electronics Engineering Labratory"
+                     android:textColor="@color/qnTxt"
+                     android:textSize="23sp" />
+
+                 <CheckBox
+                    android:id="@+id/ch25"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Computaional Methods"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch24" />
+                 <CheckBox
+                    android:id="@+id/ch26"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Probablity and Random Process"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch25" />
+                 <CheckBox
+                    android:id="@+id/ch27"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electromagnetic Fields"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch26" />
+                 <CheckBox
+                    android:id="@+id/ch28"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Singnal and System Analysis"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch27" />
+                 <CheckBox
+                    android:id="@+id/ch29"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Appled Electronics II"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch28" />
+                 <CheckBox
+                    android:id="@+id/ch210"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electronics Engineering Laboratory III"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch29" />
+                 <CheckBox
+                    android:id="@+id/ch31"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Object Oreiented Programing"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch210" />
+                 <CheckBox
+                    android:id="@+id/ch32"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electrical Materials and Technology"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch31" />
+                 <CheckBox
+                    android:id="@+id/ch33"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Network Analysis and Synthesis"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch32" />
+                 <CheckBox
+                    android:id="@+id/ch34"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Introduction to Electrical Machine"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch33" />
+                 <CheckBox
+                    android:id="@+id/ch35"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electrical Engineering Laboratory IV"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch34" />
+                 <CheckBox
+                    android:id="@+id/ch36"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Digital Logic Desighn"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch35" />
+                 <CheckBox
+                    android:id="@+id/ch37"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Digital Signal Processing"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch36" />
+                 <CheckBox
+                    android:id="@+id/ch38"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Introduction to comunication System"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch37" />
+                 <CheckBox
+                    android:id="@+id/ch39"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Computer architecture and Organization"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch38" />
+                 <CheckBox
+                    android:id="@+id/ch310"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Introduction to Control Systems"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch39" />
+                 <CheckBox
+                    android:id="@+id/ch311"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Introduction to Power System"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch310" />
+                 <CheckBox
+                    android:id="@+id/ch312"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electrical Worckshop Practice II"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch311" />
+             
+                 <CheckBox
+                    android:id="@+id/ch42"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="VLSI Design"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch312" />
+                 <CheckBox
+                    android:id="@+id/ch43"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Data Structure and Algorithm"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch42" />
+                 <CheckBox
+                    android:id="@+id/ch44"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Database System"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch43" />
+                 <CheckBox
+                    android:id="@+id/ch45"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electrical Measurment and Instrunmentation"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch44" />
+                 <CheckBox
+                    android:id="@+id/ch46"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Data Comunication and Computer Networking"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch45" />
+                 <CheckBox
+                    android:id="@+id/ch47"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Modeern Control Systems"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch46" />
+                 
+                 <CheckBox
+                    android:id="@+id/ch48"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electrical Machine"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch47" />
+                 <CheckBox
+                    android:id="@+id/ch49"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Energy Conveversion and Rular Electrification"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch48" />
+                 <CheckBox
+                    android:id="@+id/ch410"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electrical Instaltion"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch49" />
+                 <CheckBox
+                    android:id="@+id/ch411"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Power System"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch410" />
+                 <CheckBox
+                    android:id="@+id/ch412"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Communiaction Systems"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch411" />
+                 <CheckBox
+                    android:id="@+id/ch413"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="EM Wave and Guide Structure"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch412" />
+                 <CheckBox
+                    android:id="@+id/ch414"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Microelectronics Devices and Circuits"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch413" />
+                 <CheckBox
+                    android:id="@+id/ch415"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Process Control Fundamentals"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch414" />
+                 <CheckBox
+                    android:id="@+id/ch416"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Electrical Insatallation"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch415" />
+                 <CheckBox
+                    android:id="@+id/ch417"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Embedded Systems"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch416" />
+                 <CheckBox
+                    android:id="@+id/ch418"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Research Methods and Presentation"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch417" />
+                 <CheckBox
+                    android:id="@+id/ch419"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Oprating System"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch418" />
+                 <CheckBox
+                    android:id="@+id/ch420"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Computer Networking and Security"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch419" />
+                 <CheckBox
+                    android:id="@+id/ch421"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Software Engineering"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch420" />
+                 <CheckBox
+                    android:id="@+id/ch422"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Programing Languages"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch421" />
+                 <CheckBox
+                    android:id="@+id/ch423"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Powers System Planning and Operation"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch422" />
+                 <CheckBox
+                    android:id="@+id/ch424"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Power Electronics And Electric Drives"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch423" />
+                 <CheckBox
+                    android:id="@+id/ch425"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Hydropower Engineering"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch424" />
+                 <CheckBox
+                    android:id="@+id/ch426"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Power System Protection and Control"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch425" />
+                 <CheckBox
+                    android:id="@+id/ch427"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Microwave Devices and systems"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch426" />
+                 <CheckBox
+                    android:id="@+id/ch428"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Optics and Optical Communication"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch427" />
+                 <CheckBox
+                    android:id="@+id/ch429"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Antennas and Radio Wave Propagation"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch428" />
+                 <CheckBox
+                    android:id="@+id/ch430"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Telecommunicaton Networks"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch429" />
+                 <CheckBox
+                    android:id="@+id/ch431"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Wireless and Mobile Communication"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch430" />
+                 <CheckBox
+                    android:id="@+id/ch432"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Instrumentation Enginnering"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch431" />
+                 <CheckBox
+                    android:id="@+id/ch433"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Digital Control Systems"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch432" />
+                 <CheckBox
+                    android:id="@+id/ch434"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Neural Networks and Fuzzy Logic Control"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch433" />
+                 <CheckBox
+                    android:id="@+id/ch51"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Industrial Automation and Introduction to Roboticcs"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch434" />
+                 <CheckBox
+                    android:id="@+id/ch52"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Industrial Management and Engineering Economy"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch51" />
+                 <CheckBox
+                    android:id="@+id/ch53"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Advanced Computer Networks"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch52" />
+                 <CheckBox
+                    android:id="@+id/ch54"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Engineering Entrepreneurship"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch53" />
+                 <CheckBox
+                    android:id="@+id/ch55"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Computer Application in Power System"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch54" />
+                 <CheckBox
+                    android:id="@+id/ch56"
+                    android:onClick="onCheckBoxkClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="23sp"
+                    android:text="Switching and Inteliegent Networks"
+                    android:textColor="@color/qnTxt"
+                    android:layout_below="@+id/ch55" />
+                
+            </RelativeLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/startBackButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/btnBk"
+            android:paddingBottom="4dp"
+            android:text="@string/buttonBack" />
+"
+
+        <Button
+            android:id="@+id/startPlayButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@+id/startBackButton"
+            android:background="@color/btnBk"
+            android:onClick="onStartPlayClick"
+            android:paddingBottom="4dp"
+            android:text="@string/buttonPlay" />
+        
+</RelativeLayout>

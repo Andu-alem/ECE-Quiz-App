@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ECEQuiz</string>
+    <string name="main_text_view1">This is me</string>
+    <string name="start_text_view1">Select Courses</string>
+    
+  
+    
+    
+    
+    <string name="buttonStart">Start</string>
+    <string name="buttonSetting">Setting</string>
+    <string name="buttonInstruction">Instruction</string>
+    <string name="buttonAbout_us">About us</string>
+    <string name="buttonExit">Exit</string>
+    <string name="buttonBack">Back</string>
+    <string name="buttonPlay">Play</string>
+    
+    
+    
+    <string name="img1">Simple Image</string>
+    
+    
+    <string name="selectCourses">Select Courses</string>
+    
+    <color name="btnColor">#f2f2f2</color>
+    <color name="btnText">#262626</color>
+    <color name="playBtn">#1a0000</color>
+    <color name="btnBk">#006666</color>
+    <color name="qnBgd">#f2f2f2</color>
+    <color name="qnTxt">#0d0d0d</color>
+    
+    
+  
+    
+    
+    
+              <!-- Courses -->
+              
+              
+              
+      <!-- 1st Year courses-->
+    <string name="ECEg1071">Fundamentals of Electrical Engineering</string>
+    
+    
+    
+    
+    
+    <!-- 2nd Year course -->
+    <string name="ECEg2033">Introduction to Computing</string>
+    
+    
+    
+    <string name="ECEg2113">Computaional Methods</string>    
+    <string name="ECEg2114">Probablity and Random Process</string>
+    <string name="ECEg2029">Electromagnetic Fields</string>    
+    <string name="ECEg2121">Singnal and System Analysis</string>
+    <string name="ECEg2123">Appled Electronics II</string>
+    <string name="ECEg2124">Electronics Engineering Laboratory III</string>    
+    
+    
+    
+    <!-- 3rd Year course -->
+    
+    <string name="ECEg3142">Object Oreiented Programing</string>    
+    <string name="ECEg3163">Electrical Materials and Technology</string>
+    <string name="ECEg3122">Network Analysis and Synthesis</string>    
+    <string name="ECEg3131">Introduction to Electrical Machine</string>
+    <string name="ECEg3132">Electrical Engineering Laboratory IV</string>
+    <string name="ECEg3141">Digital Logic Desighn</string>
+    
+    
+    <string name="ECEg3151">Digital Signal Processing</string>    
+    <string name="ECEg3152">Introduction to comunication System</string>
+    <string name="ECEg3143">Computer architecture and Organization</string>    
+    <string name="ECEg3153">Introduction to Control Systems</string>
+    <string name="ECEg3154">Introduction to Power System</string>
+    <string name="ECEg3133">Electrical Worckshop Practice II</string>
+    
+    
+    
+    
+    
+    <!-- 4th year course -->
+    
+    <string name="ECEg4161">Microcomputers and Interface</string>
+    <string name="ECEg4201">VLSI Design</string>
+    <string name="ECEg4171">Data Structure and Algorithm</string>
+    <string name="ECEg4572">Database System</string>
+    <string name="ECEg4155">Electrical Measurment and Instrunmentation</string>
+    <string name="ECEg4591">Data Comunication and Computer Networking</string>
+    <string name="ECEg4321">Modeern Control Systems</string>
+    <string name="ECEg4521">Electrical Machine</string>
+    <string name="ECEg4242">Energy Conveversion and Rular Electrification</string>
+    <string name="ECEg4241">Electrical Instaltion</string>
+    <string name="ECEg4221">Power System</string>
+    <string name="ECEg4172">Communiaction Systems</string>
+    <string name="ECEg4291">EM Wave and Guide Structure</string>
+    <string name="ECEg4261">Microelectronics Devices and Circuits</string>
+    <string name="ECEg4333">Process Control Fundamentals</string>
+    <string name="ECEg4541">Electrical Insatallation</string>
+    
+    
+    
+    <string name="ECEg4202">Embedded Systems</string>
+    <string name="ECEg4341">Research Methods and Presentation</string>
+    <string name="ECEg4472">Oprating System</string>
+    <string name="ECEg4192">Computer Networking and Security</string>
+    <string name="ECEg4183">Software Engineering</string>
+    <string name="ECEg4251">Powers System Planning and Operation</string>
+    <string name="ECEg4222">Power Electronics And Electric Drives</string>
+    <string name="ECEg4243">Hydropower Engineering</string>
+    <string name="ECEg4232">Power System Protection and Control</string>
+    <string name="ECEg4301">Microwave Devices and systems</string>
+    <string name="ECEg4302">Optics and Optical Communication</string>
+    <string name="ECEg4292">Antennas and Radio Wave Propagation</string>
+    <string name="ECEg4282">Telecommunicaton Networks</string>
+    <string name="ECEg4283">Wireless and Mobile Communication</string>
+    <string name="ECEg4323">Instrumentation Enginnering</string>
+    <string name="ECEg4322">Digital Control Systems</string>
+    <string name="ECEg4324">Neural Networks and Fuzzy Logic Control</string>
+    
+    
+    
+    
+    
+    <!-- 5th year course -->
+    
+    <string name="ECEg5332">Industrial Automation and Introduction to Roboticcs</string>
+    <string name="ECEg5361">Industrial Management and Engineering Economy</string>
+    <string name="ECEg5201">Advanced Computer Networks</string>
+    <string name="ECEg5262">Engineering Entrepreneurship</string>
+    <string name="ECEg5242">Computer Application in Power System</string>
+    <string name="ECEg5284">Switching and Inteliegent Networks</string>
+
+</resources>
